@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: sms_gun_development
+  pool: 5
+  username: sms_gun
+  password: sms_gun696
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: sms_gun_test
+  pool: 5
+  username: sms_gun
+  password: sms_gun696
+  host: localhost
